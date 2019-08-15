@@ -5,7 +5,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
-    Mat srcImage = imread("F:/opencv-data/lianggongchunri_de_youyv-009.jpg");
+    Mat srcImage = imread("C:/opencv-data/lianggongchunri_de_youyv-009.jpg");
     if (!srcImage.data) {
         std::cout << "Image not loaded";
         return -1;
